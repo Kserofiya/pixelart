@@ -1,0 +1,54 @@
+body {
+background-color: #E3A5DF;
+}
+.visually-hidden {
+margin-top: 30px;
+margin-left: 33%;
+}
+.chosen-color {
+margin-left: 500px;
+height: 30px;
+width: 150px;
+font-size: 16px;
+}
+.controls {
+display: flex;
+flex-wrap: wrap;
+
+}
+.eraser {
+margin-left: 40px;
+margin-top: 3px;
+height: 20px;
+width: 20px;
+}
+.clear {
+margin-top: 1px;
+margin-left: 10px;
+font-size: 20px;
+}
+.main {
+margin-top: 40px;
+}
+.canvas {
+  
+display: flex;
+  
+flex-wrap: wrap;
+  
+border: 3px solid #20262d;
+width: 423px;
+margin: 0 auto;
+}
+
+.pixel {
+width: 45px;
+  
+height: 45px;
+  
+border: 1px solid #333a48;
+  
+background-color: #ffffff;
+  
+cursor: pointer;
+}
